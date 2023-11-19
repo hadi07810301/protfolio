@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css'>
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #F8F9FA;">
+  <!-- nav part start -->
+  <div class="sidebar">
+    <div class="logo-details">
+      <div class="logo_name"><img src="img/dashbord_icon.png" alt=""></div>
+      <i class='bx bx-menu' id="btn"></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Dashboard</span>
+        </a>
+        <span class="tooltip">Dashboard</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-chart-simple"></i>
+          <span class="links_name">Tables</span>
+        </a>
+        <span class="tooltip">Tables</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-wallet"></i>
+          <span class="links_name">Billing</span>
+        </a>
+        <span class="tooltip">Billing</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-wrench"></i>
+          <span class="links_name">RTL</span>
+        </a>
+        <span class="tooltip">RTL</span>
+      </li>
+      <li>
+        <a href="#" class="accoun_page">ACCOUNT PAGES</a>
+        <span class="tooltip">ACCOUNT PAGES</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-user'></i>
+          <span class="links_name">Profile</span>
+        </a>
+        <span class="tooltip">Profile</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-note-sticky"></i>
+          <span class="links_name">Sign In</span>
+        </a>
+        <span class="tooltip">Sign In</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-rocket"></i>
+          <span class="links_name">Sign Up</span>
+        </a>
+        <span class="tooltip">Sign Up</span>
+      </li>
+      <li>
+      <li class="profile">
+        <div class="profile-details">
+          <div class="name_job">
+            <i class="fa-solid fa-question"></i>
+            <h2>Need help?</h2>
+            <h3>Please check our docs</h3>
+            <h5>DOCUMENTATION</h5>
+
+          </div>
+        </div>
+        <i class='bx bx-log-out' id="log_out"></i>
+      </li>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <div class="protfolio">
+      <div class="profile_main">
+        <div class="prt_iteam d-flex justify-content-between">
+          <div class="protfolio_text">
+            <span>Pages / Profile</span>
+            <h4>Profile</h4>
+          </div>
+          <div class="prt_scerash">
+            <i class="fa-solid fa-magnifying-glass glass"></i>
+            <input type="text" placeholder=" Type here... ">
+            <a href="#"><i class="fa-solid fa-user"></i>Sing in</a>
+            <i class="fa-solid fa-gear"></i>
+            <i class="fa-solid fa-bell"></i>
+          </div>
+        </div>
+        <div class="protfolie_profile d-flex justify-content-between align-items-center">
+          <div class="profile_iteam">
+            <div class="profile_img d-flex">
+              <img src="img/profile img.png" alt="">
+              <div class="profile_name">
+                <h3>Esthera Jackson</h3>
+                <h4>esthera@simmmple.com</h4>
+              </div>
+            </div>
+          </div>
+          <div class="profile_manu">
+            <ul>
+              <li><a href="#">OVERVIEW</a></li>
+              <li><a href="#">TEAMS</a></li>
+              <li><a href="#">PROJECTS</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- platfrom part start -->
+    <div class="platfrom d-flex justify-content-between">
+      <div class="platfrom_iteam">
+        <div class="platfrom_text">
+
+          <h3>Platform Settings</h3>
+          <p>ACCOUNT</p>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">
+              <p>Platform Settings</p>
+            </label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">
+              <p>Email me when someone answers on my post</p>
+            </label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">
+              <p>Email me when someone mentions me</p>
+            </label>
+          </div>
+          <p>APPLICATION</p>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">
+              <p>New launches and projects</p>
+            </label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">
+              <p>Monthly product updates</p>
+            </label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">
+              <p>Subscribe to newsletter</p>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="platfrom_iteam">
+        <div class="platfrom_text">
+          <h3>Platform Settings</h3>
+          <h5>Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths,
+            choose the one more painful in the short term (pain avoidance is creating an illusion of equality).</h5>
+          <div class="platfrom_brd"></div>
+          <h6><span> Full Name:</span> Alec M. Thompson</h6>
+          <h6><span> Email: </span> alecthompson@mail.com</h6>
+          <h6><span> Location: </span> United States</h6>
+          <h6><span> Social Media:</span> Alec M. Thompson</h3>
+
+        </div>
+      </div>
+      <div class="platfrom_iteam">
+        <div class="platfrom_text">
+          <h3>Conversations</h3>
+          <div class="plt_main d-flex">
+            <div class="platfrom_img">
+              <img src="img/con 1.png" alt="">
+            </div>
+            <div class="palt_text">
+              <h2>Esthera Jackson</h2>
+              <a>Hi! I need more informations...</a>
+            </div>
+            <div class="plt_reply">
+              <a href="#">Reply</a>
+            </div>
+          </div>
+          <div class="plt_main d-flex">
+            <div class="platfrom_img">
+              <img src="img/con 2.png" alt="">
+            </div>
+            <div class="palt_text">
+              <h2>Esthera Jackson</h2>
+              <a>Hi! I need more informations...</a>
+            </div>
+            <div class="plt_reply">
+              <a href="#">Reply</a>
+            </div>
+          </div>
+          <div class="plt_main d-flex">
+            <div class="platfrom_img">
+              <img src="img/con3.png" alt="">
+            </div>
+            <div class="palt_text">
+              <h2>Esthera Jackson</h2>
+              <a>Hi! I need more informations...</a>
+            </div>
+            <div class="plt_reply">
+              <a href="#">Reply</a>
+            </div>
+          </div>
+          <div class="plt_main d-flex">
+            <div class="platfrom_img">
+              <img src="img/con4.png" alt="">
+            </div>
+            <div class="palt_text">
+              <h2>Esthera Jackson</h2>
+              <a>Hi! I need more informations...</a>
+            </div>
+            <div class="plt_reply">
+              <a href="#">Reply</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- platfrom part end -->
+    <!-- plt-card start -->
+    <div class="plt_card">
+      <div class="plt_card_head">
+        <h2>Projects</h2>
+        <h3>Architects design houses</h3>
+      </div>
+      <div class="card_main d-flex justify-content-between">
+        <div class="card card_text" style="width: 25%;">
+          <div class="card_img"> <img src="img/prj 1.png" class="card-img-top " alt="..."></div>
+          <div class="card-body">
+            <h6>Project #1</h6>
+            <h5 class="card-title">Modern</h5>
+            <p class="card-text col-lg-10">As Uber works through a huge amount of internal
+              management turmoil.</p>
+            <a href="#">VIEW ALL </a>
+            <img src="img/Avatars Group 3 (Horizontal) (1).png" alt="">
+          </div>
+        </div>
+        <div class="card card_text" style="width: 25%;">
+          <div class="card_img"> <img src="img/prj 1.png" class="card-img-top " alt="..."></div>
+          <div class="card-body">
+            <h6>Project #1</h6>
+            <h5 class="card-title">Modern</h5>
+            <p class="card-text col-lg-10">As Uber works through a huge amount of internal
+              management turmoil.</p>
+            <a href="#">VIEW ALL </a>
+            <img src="img/Avatars Group 3 (Horizontal) (1).png" alt="">
+          </div>
+        </div>
+        <div class="card card_text" style="width: 25%;">
+          <div class="card_img"> <img src="img/prj 1.png" class="card-img-top " alt="..."></div>
+          <div class="card-body">
+            <h6>Project #1</h6>
+            <h5 class="card-title">Modern</h5>
+            <p class="card-text col-lg-10">As Uber works through a huge amount of internal
+              management turmoil.</p>
+            <a href="#">VIEW ALL </a>
+            <img src="img/Avatars Group 3 (Horizontal) (1).png" alt="">
+          </div>
+        </div>
+        <div class="card card_text" style="width: 25%;">
+          <img src="img/Card 4.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- plt-card end -->
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-6 foter_tex5t">
+          <p>@ 2021, Made with ❤️ by <span> Creative Tim </span>& <span> Simmmple </span>for a better web</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="copoyright_manu">
+            <ul>
+              <li><a href="#">Creative Tim</a></li>
+              <li><a href="#">Simmmple</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">License</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nav part end -->
+    <section id="copyright singin_copy">
+      >
+    </section>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
